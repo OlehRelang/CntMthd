@@ -61,23 +61,28 @@ class MainMenu(QMainWindow):
 
     def start_lab_2(self):
         self.close()
-        os.system('python lab2.py')
+        import lab2
+        self.main = lab2.SplashScreen()
 
     def start_lab_3(self):
         self.close()
-        os.system('python lab3.py')
+        import lab3
+        self.main = lab3.SplashScreen()
 
     def start_lab_4(self):
         self.close()
-        os.system('python lab4.py')
+        import lab4
+        self.main = lab4.SplashScreen()
 
     def start_lab_5(self):
         self.close()
-        os.system('python lab5.py')
+        import lab5
+        self.main = lab5.SplashScreen()
 
     def start_lab_6(self):
         self.close()
-        os.system('python lab6.py')
+        import lab6
+        self.main = lab6.SplashScreen()
 
 
 class PreStart(QMainWindow):

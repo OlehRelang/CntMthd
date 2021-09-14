@@ -36,7 +36,7 @@ class MainWindow(QMainWindow):
 
         self.ui.pushButton1.clicked.connect(self.click1)
         self.ui.pushButton2.clicked.connect(self.click2)
-        self.ui.pushButton_close.clicked.connect(app.exit)
+        self.ui.pushButton_close.clicked.connect(self.close)
         self.ui.pushButton_exp.clicked.connect(self.showMinimized)
 
     def mousePressEvent(self, event):

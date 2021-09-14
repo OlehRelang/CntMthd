@@ -32,7 +32,7 @@ class MainWindow(QMainWindow):
                            "background-color: rgb(38, 41, 45);"
                            )
 
-        self.ui.pushButton_close.clicked.connect(app.exit)
+        self.ui.pushButton_close.clicked.connect(self.close)
         self.ui.pushButton_exp.clicked.connect(self.showMinimized)
 
         self.ui.pushButton_left.clicked.connect(self.left)
